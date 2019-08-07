@@ -64,3 +64,305 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+*{
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 40px 0 0 0;
+}
+
+nav a{
+	text-decoration: none;
+	color: grey;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0 40px 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.headerContent{
+	font-size: 70px;
+	flex-wrap: wrap;
+	height: 20vh;
+	width: 275px;
+	text-align: center;
+	padding: 30px 0 0 0;
+	}
+
+.headerButton {
+	font-size: 20px;
+	color: grey;
+	border: 2px solid grey;
+	text-align: center;
+	padding: 10px 30px;
+	margin: 100px 0 0 0;
+}
+
+header img {
+	margin: 0 0 0 100px;
+}
+
+.topInfo {
+	display: flex;
+	justify-content: center;
+	margin: 0 0 20px 0;
+	padding: 40px 0 0 0;
+	
+}
+
+.features{
+	flex-direction: column;
+	display: flex;
+	width: 440px;
+}
+
+.about {
+	flex-direction: column;
+	display: flex;
+	width: 440px;
+}
+
+#middleImg{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 0 20px 0;
+}
+
+.bottomInfo{
+	display: flex;
+	justify-content: center;
+	padding: 0 0 40px 0;
+}
+
+.services{
+	display: flex;
+	flex-direction: column;
+	width: 295px;
+}
+
+
+.product {
+	display: flex;
+	flex-direction: column;
+	width: 295px;
+}
+
+.vision {
+	display: flex;
+	flex-direction: column;
+	width: 295px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	margin: 40px 0 0 273px;
+}
+
+#Contact {
+	margin: 10px 10px 10px 0;
+}
+.contact .divContact{
+	margin: 10px 10px 10px 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 150px;
+}
+
+.allInfo {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+}
+
+#servicesHeaderImg{
+	display: flex;
+	justify-content: center;
+	margin: 40px 0;
+}
+
+.services2 {
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	margin: 0 0 40px 120px;
+
+}
+
+.services2 h2 {
+	font-size: 30px;
+}
+
+.services2 p {
+	font-size: 20px;
+}
+
+.mainBody {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	height: 120vh;
+	padding: 0 0 0 120px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 0 0 40px 0;
+}
+
+.digitalDesign { 
+	height: 250px;
+	width: 600px;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.digitalDesign div{
+	border: 2px solid black;
+	background: white;
+	text-align: center;
+	padding: 10px 20px;
+	width: 150px;
+	margin:40px 0 40px 0;
+	border-radius: 5px;
+}
+
+.uxui { 
+	height: 250px;
+	width: 600px;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.uxui div{
+	border: 2px solid black;
+	background: white;
+	text-align: center;
+	padding: 10px 20px;
+	width: 150px;
+	margin:40px 0 40px 0;
+	border-radius: 5px;
+}
+
+.digitalMarketing { 
+	height: 250px;
+	width: 600px;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.digitalMarketing div{
+	border: 2px solid black;
+	background: white;
+	text-align: center;
+	padding: 10px 20px;
+	width: 150px;
+	margin:40px 0 40px 0;
+	border-radius: 5px;
+}
+
+.webDevelopment { 
+	height: 250px;
+	width: 600px;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.webDevelopment div{
+	border: 2px solid black;
+	background: white;
+	text-align: center;
+	padding: 10px 20px;
+	width: 150px;
+	margin:40px 0 40px 0;
+	border-radius: 5px;
+}
+
+.iOS { 
+	height: 250px;
+	width: 600px;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.iOS div{
+	border: 2px solid black;
+	background: white;
+	text-align: center;
+	padding: 10px 20px;
+	width: 150px;
+	margin:40px 0 40px 0;
+	border-radius: 5px;
+}
+
+.android { 
+	height: 250px;
+	width: 600px;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.android div{
+	border: 2px solid black;
+	background: white;
+	text-align: center;
+	padding: 10px 20px;
+	width: 150px;
+	margin:40px 0 40px 0;
+	border-radius: 5px;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-around;
+}
+
+.facts div {
+	flex-direction: column;
+	width: 500px;
+	font-size: 20px;
+}
+
+.facts ul {
+	list-style: none;	
+}
+
+.facts ul li::before{
+	content: "\2022";
+	color: black;
+	font-weight: bold;
+}
+
+.facts li {
+	padding: 10px;
+	margin: 10px 0 0 0;
+}
