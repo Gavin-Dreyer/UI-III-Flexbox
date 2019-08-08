@@ -183,10 +183,7 @@ footer {
 	margin: 150px;
 }
 
-.allInfo {
-	border-top: 2px solid grey;
-	border-bottom: 2px solid grey;
-}
+
 
 #servicesHeaderImg{
 	display: flex;
@@ -210,14 +207,34 @@ footer {
 	font-size: 20px;
 }
 
+.topLineParent {
+	display: flex;
+	justify-content: center;
+}
+
+.topLine {
+	border: 1px solid black;
+	width: 1255px;
+	margin: 0 0 0 60px;
+}
+
+.bottomLineParent {
+	display: flex;
+	justify-content: center;
+}
+
+.bottomLine {
+	border: 1px solid black;
+	width: 1255px;
+	margin: 0 0 40px 60px;
+}
+
 .mainBody {
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
 	height: 120vh;
 	padding: 0 0 0 120px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
 	margin: 0 0 40px 0;
 }
 
